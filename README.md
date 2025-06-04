@@ -23,4 +23,28 @@ This project leverages **machine learning and geospatial data analysis** to iden
   - `city_choropleth_map.html`: Investment scores by city
   - `city_heatmap.html`: Top 100 high-opportunity locations
 
-## 📁 Project Structure
+## 📂 Project Structure
+
+📂 Real Estate Investment Analysis
+├── Real Estate Investing Report – Lorenzo Zullo.pdf   # Full project report
+├── project.ipynb                                      # Code notebook
+├── zillow-zhvi.csv                                    # Zillow housing index data
+├── city_choropleth_map.html                           # Interactive investment map
+└── city_heatmap.html                                  # Heatmap of top investment areas
+
+## 🚀 How to Use
+To view and interact with the analysis:
+1. Clone this repository
+2. Open `realestateProject/project.ipynb` in Jupyter Notebook or VS Code
+3. Run all cells to generate predictions, scores, and visualizations
+4. Open the generated `city_choropleth_map.html` and `city_heatmap.html` in your browser for interactive views
+
+## 📈 Results
+- **Top investment areas**: Florida, East Coast, parts of the Southwest
+- **Best predictors**: ZHVI, bathroom count, and market growth
+- **Challenges**: High price variability in luxury markets; future work may explore Random Forest or ensemble models.
+
+## 🔭 Future Work
+- Incorporate macroeconomic indicators (e.g. interest rates, job growth)
+- Add neighborhood-level insights for better granularity
+- Explore ensemble models to reduce high-value prediction error
